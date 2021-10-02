@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Teko:wght@300&display=swap');
+@import "generales";
+@import "index";
+@import "productos";
+@import "conocenos";
+@import "formulario";
+@import "talles";
+
+
+html {
+    font-size: 62.5%;
+}
+
+/* MEDIA */
+
+@media (max-width: 600px) {
+    .imgBanner {
+        width: 75vw;
+    }
+
+    .noticiaP {
+        font-size: 110%;
+        background-color: rgb(92, 90, 90);
+    }
+
+    .navegacion li a {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .imgBanner {
+        width: 70vw;
+    }
+
+    .noticiaP {
+        font-size: 100%;
+        background-color: rgb(90, 56, 56);
+    }
+
+    .navegacion li a {
+        font-size: 60%;
+    }
+}

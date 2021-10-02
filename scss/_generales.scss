@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+
+$gris: rgb(156, 156, 156);
+
+$headings: (
+h1: 3em,
+h2: 2em,
+h3: 1,75em,
+);
+
+$h1 : map-get($headings, h1);
+
+h1{
+    font-size: $h1;
+}
+
+/*404*/
+
+.cr7 {
+    background-image: url(../multimedia/fondo1.jpg);
+    background-position: right;
+    background-size: cover;
+    p{
+        font-size: 200%;
+        color: white;
+        background-color: black;
+    }
+}
+
+
+/* HEADER */
+
+header{
+    nav{
+        font-size: 200%;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(185, 184, 184);
+    font-size: 150%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        color: black;
+    }
+    p{
+        font-size: 200%;
+        font-style: italic;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+}

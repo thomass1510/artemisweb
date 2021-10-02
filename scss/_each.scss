@@ -1,0 +1,7 @@
+$lista: red,yellow,blue,green;
+
+@each $var in list {
+    .#($color){
+        background-color: $color;
+    }
+}

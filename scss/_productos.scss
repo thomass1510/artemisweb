@@ -1,0 +1,158 @@
+
+/* PRODUCTOS */
+
+.productosH {
+    display: grid;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-areas: "titulo uno dos"
+        "titulo p1 p2"
+        "titulo tres cuatro"
+        "titulo p3 p4";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+}
+
+.hombres {
+    grid-area: titulo;
+}
+
+.productos__unoH {
+    grid-area: uno;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr1 {
+    grid-area: p1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
+
+.productos__dosH {
+    grid-area: dos;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
+
+.pr2 {
+    grid-area: p2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+
+}
+
+.productos__tresH {
+    grid-area: tres;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
+
+.pr3 {
+    grid-area: p3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
+
+.productos__cuatroH {
+    grid-area: cuatro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
+
+.pr4 {
+    grid-area: p4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
+
+.productosM {
+    display: grid;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-areas: "titulo uno dos"
+        "titulo p1 p2"
+        "titulo tres cuatro"
+        "titulo p3 p4";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+}
+
+.unoM {
+    grid-area: uno;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr1 {
+    grid-area: p1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dosH{
+    grid-area: dos;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: $gris;
+}
+
+
+.pr2 {
+    grid-area: p2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+
+}
+
+.tresM {
+    grid-area: tres;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
+
+.pr3 {
+    grid-area: p3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
+
+.cuatroM {
+    grid-area: cuatro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
+
+.pr4 {
+    grid-area: p4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gris;
+}
